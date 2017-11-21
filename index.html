@@ -2,70 +2,97 @@
 <html>
 <head>
 	<title>Steven Levano</title>
-		  <meta charset="utf-8">
-		  <meta name="viewport" content="width=device-width, initial-scale=1">
-		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+ 			<meta charset="utf-8">
+    		<meta name="viewport" content="width = device-width, initial-scale = 1">
+    		
+		  <!-- Bootstrap CSS -->
+		  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		  	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+			<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		 	  
+  </head>
 <body>
+			  	<!-- nav bar -->
+<div class="container-fluid">
+	<div class = "col-lg-12 col-md-12 col-sm-12 col-xs-12">
+		<nav class="navbar navbar-expand-lg navbar navbar-dark fixed-top">
+			<div class="container-fluid">
+		  
+			    <!--Brand and toggle get grouped for better mobile display -->
+			   <div class="navbar-header collapse navbar-collapse">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			       
+			      </button>
+			      <a class="navbar-brand" style = "color: #ffffff"; href="#">Steven Levano</a>
+			    </div>
 
-	<nav class="navbar navbar-default">
-	 <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      
-	      <a class="navbar-brand" href="#">Steven Levano</a>
-	    </div>
-
-   
-     
-	      <ul class="nav navbar-nav navbar-right">
-	        <li><a href="#">About</a></li>
-	        <li><a href="#">Portfolio</a></li>
-	        <li><a href="#">Contact</a></li>
-	       
-	      </ul>
-	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
-
-<div class="container">
-		<div class="row">
-				<div class="col-sm-8">
-					<div class="page-header">
-		  				<h1>About Me</h1>
-					</div>
-						<div class="row">
-		  					<div class="col-sm-5">
-		    					<img src="assets/images/atsamsung_.jpg" class="thumbnail" alt="..." width="251" height="434">
-		    				</div>
-		      					<div class="col-sm-7">
-		      						<div class="caption">
-		        						
-		        						<p>	Hi, my name is Steven and I'm creating lots of good stuff!  Or at least that's the goal.</p>
-
-										<p>Follow me on social media and check on my progress as I transition from my former life in Finance to one where I create nifty websites and games. </p>
-						
-										<p>When I'm not coding, I can be found in some nerdy hot-spot or hanging with my cat.</p>
-		        					</div>
-		    					</div>
-		  				</div>
-				</div>
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			     
+			      
+			      <ul class="nav navbar-nav navbar-right nav-tabs">
+			        <li><a href="index.html">About</a></li>
+			        <li><a href="portfolio.html">Profile</a></li>
+			        <li><a href="contact.html">Contact</a></li>
+			       
+			      </ul>
+			    </div>
+		    </div>
+		</nav> 
+	</div>
 		
-				
-	<div class="col-sm-4">
-			<div class="panel panel-default">
-  				<div class="panel-heading">
-    				<h3 class="panel-title">Sidebar</h3>
-  				</div>
-  				<div class="panel-body">
-    				Sidebar content
-  				</div>
+		   
+</div>
+		
+		<!-- About Section -->
+		<div class="col-md-6 col-sm-12">
+			<div class="panel panel-primary">
+				<div class="panel-heading">About Me</div>
+				<div class="panel-body">
+					
+					<img src="assets/images/atsamsung_.jpg" class="auth-image" alt="standing with Godzilla">
+					<p>
+						Hi, my name is Steven and I'm creating lots of good stuff!  Or at least that's the goal.
+					</p>
+					<p>
+						Follow me on social media and check on my progress as I transition from my former life in Finance to one where I create nifty websites and games.
+					</p>
+					<p>
+						When I'm not coding, I can be found in some nerdy hot-spot or hanging with my cat.
+					</p>
+					
 			</div>
 		</div>
 	</div>
-</div>
+	<!-- social media buttons -->
+	
+		<section class="sidebar">
+			
+			<h2>Connect with Me</h2>
 
+				<div class="row">			
+					<div class="btn-group btn-group-lg" role="group">
+						<a href="https://github.com/slevano1" class="social" target="_blank">
+						<img style ="width:62px; height:62px;" src="assets/images/github.png"  id="button" alt="Github"></a>
+						<a href="https://www.linkedin.com/in/steven-levano" class="social" target="_blank">
+						<img style ="width:62px; height:62px; float:right;" src="assets/images/linkedin.png"  id="button" alt="LinkedIn"></a>
+						<a href="https://stackoverflow.com/users/8762968/steven-levano" class="social" target="_blank">
+						<img style ="width:62px; height:62px;" src="assets/images/Stack.png"  id="button" alt="StackOverflow"></a>
+					</div>		
+				</div>
+		</section>
+	
+			
+		
+				<!-- footer -->
+		<div class="panel panel-default">	
+			<div class="panel-body"></div>	  	  
+		  	<div class="panel-footer">&copy; Copyright 2017 Steven Levano</div>
+		</div>
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>
 </html>
