@@ -65,6 +65,7 @@ body {
 .work h3 {
     background: #4aaaa5;
     color: #ffffff;
+    border-bottom: 2px solid #dddddd;
     font-size: 18px;
     position: absolute;
     bottom: 20px;
