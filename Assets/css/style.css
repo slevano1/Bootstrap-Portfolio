@@ -23,9 +23,20 @@
   line-height: 27px;
   font-height: 700;
   color: #777777;
-  font-family: 'Georgia', Times, Times New Roman, serif;
-  
+  font-family: 'Georgia', Times, Times New Roman, serif; 
 }
+
+
+.nav-pills>li>a:hover {
+  opacity: 0.5;
+  background-color: #4aaaa5;
+}
+
+.nav-pills>li>a:active {
+  
+  transform: translateY(4px);
+}
+
 
 /*Body*/
 body {
@@ -42,6 +53,12 @@ body {
   font-size: 20px;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
+/*.panel-body {
+    padding-left: 75px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 75px;
+}*/
 
 /*Portfolio section*/
 
@@ -71,6 +88,7 @@ body {
   font-weight: 300;
 }
 
+/*Connect with Me section*/
 .btn:hover {opacity: .5}
 
 .btn:active {
@@ -78,11 +96,20 @@ body {
   transform: translateY(4px);
 }
 
+/*#button {
+  margin-right: 10px;
+  margin-left: -10px;
+}*/
 
+/*left panel*/
 .panel-primary {
   border: 3px solid #dddddd;
 }
 
+.panel-secondary {
+  color: white;
+}
+/*Footer*/
 .navbar-fixed-bottom {
   background: #666666;
   clear: both;
@@ -92,34 +119,26 @@ body {
 }
 
 
+/*Contact page - submit button*/
+input[type=submit] {
+  background: #4aaaa5;
+  border: 0 none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0 9px #777777;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 10px 30;
+  transition: all 0.9s;
+  transform: translateY(4px);
+
+}
+
+#submit:hover {opacity: .5}
+
+#submit:active {
+  transform: translateY(8px);
+}
 
 
-/*
-#main-section {
-  padding-top: 20px;
-  width: 100%;
-}
-.panel-body {
-  padding: 5px;
-}
-.panel {
-  margin-left: 180px;
-}
-h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    font-size: 30px;
-    line-height: 49px;
-    border-bottom: 3px solid #dddddd;
-    padding-bottom: 20px;
-}
-.text-center {
-    margin: 0 auto;
-    padding: 20px 10px 10px 5px;
-    text-align: center;
-}
-.btn {
-    margin: 0 auto;
-    padding: 5px 5px 0px 0px;
-    text-align: center;
-}
