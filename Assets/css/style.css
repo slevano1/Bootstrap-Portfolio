@@ -1,11 +1,33 @@
 
-Top Nav Bar
+/*Top Nav Bar*/
 #nav {
-  background-color: #ffffff;
+  background: #ffffff;
+  border-bottom: 2px solid #cccccc;
+  padding-bottom: 0px;
+}
 
+.navbar-brand {
+    width: 250px;
+    height: 75px;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 50px;
+    font-height: 700;
+    font-size: 30px
 }
 
 
+.nav-pills>li>a  {
+  margin-top: 20px;
+  line-height: 27px;
+  font-height: 700;
+  color: #777777;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  
+}
+
+/*Body*/
 body {
   background: url(../images/gaming-pattern.png);
   font-size: 18px;
@@ -14,6 +36,14 @@ body {
   color: #777777;
 }
 
+.panel-heading {
+  background-color: #4aaaa5 !important;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/*Portfolio section*/
 
 .work h3 {
     background: #4aaaa5;
@@ -21,37 +51,25 @@ body {
     font-size: 18px;
     position: absolute;
     bottom: 20px;
-    padding: 5px;
-    
+    padding: 5px;   
     line-height: 30px;
     margin-bottom: 0;
     font-weight: 300;
-
 }
 
-.work {
- 
-  
+.work { 
   position: relative;
   float: left;
-  margin: 20px 0 25px;
+  margin: 20px 5px 25px;
 }
-.work  {
-  
-  
-  color: #222222;
-  
-  
+
+.work  {  
+  color: #222222;  
   bottom: 20px;
-  padding: 15px;
- 
-  
+  padding: 15px; 
   margin-bottom: 0;
   font-weight: 300;
- 
 }
-
-
 
 .btn:hover {opacity: .5}
 
@@ -60,21 +78,33 @@ body {
   transform: translateY(4px);
 }
 
+
+.panel-primary {
+  border: 3px solid #dddddd;
+}
+
+.navbar-fixed-bottom {
+  background: #666666;
+  clear: both;
+  border-top: 8px solid #4aaaa5;
+  color: #cccccc;
+  font-size: 12px; 
+}
+
+
+
+
 /*
 #main-section {
   padding-top: 20px;
   width: 100%;
 }
-
 .panel-body {
   padding: 5px;
-
 }
-
 .panel {
   margin-left: 180px;
 }
-
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
@@ -83,16 +113,13 @@ h2 {
     border-bottom: 3px solid #dddddd;
     padding-bottom: 20px;
 }
-
 .text-center {
     margin: 0 auto;
     padding: 20px 10px 10px 5px;
     text-align: center;
 }
-
 .btn {
     margin: 0 auto;
     padding: 5px 5px 0px 0px;
     text-align: center;
 }
-
